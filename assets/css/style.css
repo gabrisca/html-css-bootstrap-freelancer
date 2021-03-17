@@ -13,6 +13,11 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 100%;
+  margin: 0;
+}
+
 .debug [class*="col-"] {
   background-color: rgba(238, 11, 11, .1);
   border: 1px solid black;
