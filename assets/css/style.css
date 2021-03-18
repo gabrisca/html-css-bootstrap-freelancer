@@ -17,7 +17,7 @@ a {
 /* MY CLASSES **********************/
 .mc-title-nav {
   font-size: 1.3em;
-  line-height: 66px;
+  line-height: 100px;
 }
 
 .mc-link-nav {
@@ -126,7 +126,7 @@ header {
 #nav-bar.container-fluid {
   height: 100px;
   width: 100%;
-  min-width: 400px;
+  min-width: 390px;
   line-height: 100px;
   background-color: #2c3e50;
   position: fixed;
@@ -135,14 +135,14 @@ header {
 
 #jumbotron.container-fluid {
   padding-top: 100px;
-  min-width: 400px;
+  /* min-width: 400px; */
   background-color: #2fbc9c;
 }
 /* /HEADER *********************/
 
 /* MAIN *********************/
 #portfolio.container-fluid {
-  min-width: 400px;
+  /* min-width: 400px; */
   background-color: white;
   margin-bottom: 3%;
 }
@@ -154,7 +154,7 @@ header {
 }
 
 #about.container-fluid {
-  min-width: 400px;
+  /* min-width: 400px; */
   background-color: #2fbc9c;
   font-size: 1.2em;
   margin-bottom: 3%;
@@ -162,7 +162,7 @@ header {
 }
 
 #contact.container-fluid {
-  min-width: 400px;
+  /* min-width: 400px; */
   background-color: white;
   margin-bottom: 3%;
 }
@@ -170,7 +170,7 @@ header {
 
 /* FOOTER ************************/
 #footer-top.container-fluid {
-  min-width: 400px;
+  /* min-width: 400px; */
   background-color: #3a546e;
   color: white;
 }
@@ -202,7 +202,7 @@ header {
 }
 
 #footer-bottom.container-fluid {
-  min-width: 400px;
+  /* min-width: 400px; */
   width: 100%;
   height: 100px;
   line-height: 90px;
@@ -231,6 +231,10 @@ header {
 @media all and (min-width: 992px) {
   img {
     width: 40%;
+  }
+  #nav-bar.container-fluid {
+    padding-left: 10%;
+    padding-right: 10%;
   }
   #portfolio.container-fluid {
     margin-left: 5%;
