@@ -20,7 +20,7 @@ a {
 
 .mc-width-80 {
   width: 80%;
-  margin: 3% auto;
+  margin: 0% auto;
 }
 
 .mc-width-90 {
@@ -50,6 +50,10 @@ a {
   display: inline-block;
 }
 
+.mc-paddingbottom20 {
+  padding-bottom: 20px;
+}
+
 .mc-padding0{
   padding: 0;
   margin: 0;
@@ -77,14 +81,14 @@ a {
 
 @media all and (max-width: 767px) {
   img {
-    width: 70%;
+    /* width: 70%; */
   }
 }
 
 
 @media all and (min-width: 768px) {
   img {
-    width: 50%;
+    /* width: 50%; */
   }
 }
 /* /GENERAL */
@@ -101,6 +105,7 @@ header {
 #nav-bar.container-fluid {
   height: 100px;
   width: 100%;
+  min-width: 300px;
   line-height: 100px;
   background-color: #2C3E50;
   position: fixed;
@@ -110,14 +115,14 @@ header {
 #jumbotron.container-fluid {
   /* min-height: 600px; */
   padding-top: 100px;
-  min-width: 515px;
+  min-width: 300px;
   background-color: #2FBC9C;
 }
 /* /HEADER */
 
 /* MAIN */
 #portfolio.container-fluid {
-  min-width: 515px;
+  min-width: 300px;
   background-color: white;
   margin-bottom: 3%;
   /* text-align: center; */
@@ -130,7 +135,7 @@ header {
 }
 
 #about.container-fluid {
-  min-width: 515px;
+  min-width: 300px;
   background-color: #2FBC9C;
   font-size: 1.2em;
   margin-bottom: 3%;
@@ -139,7 +144,7 @@ header {
 }
 
 #contact.container-fluid {
-  min-width: 515px;
+  min-width: 300px;
   background-color: white;
   margin-bottom: 3%;
   /* text-align: center; */
@@ -148,7 +153,7 @@ header {
 
 /* FOOTER */
 #footer-top.container-fluid {
-  min-width: 515px;
+  min-width: 300px;
   background-color: #3A546E;
   color: white;
 }
@@ -162,7 +167,7 @@ header {
 }
 
 #footer-bottom.container-fluid {
-  min-width: 515px;
+  min-width: 300px;
   width: 100%;
   height: 100px;
   line-height: 100px;
@@ -170,3 +175,43 @@ header {
   color: white;
 }
 /* /FOOTER */
+
+
+/* .divisore{
+  margin-top: 2.0rem;
+  margin-bottom: 3.3rem;
+} */
+
+/* DIVISORIO STELLA E LINEE */
+.mc-starwhite {
+  color: white;
+}
+
+.mc-starblue{
+  color: #2c3e50;
+}
+
+.mc-whiteline{
+  display: inline-block;
+  width: 18%;
+  margin-bottom: 0.5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+    border-bottom: 5px solid white;
+}
+
+.mc-blueline{
+  display: inline-block;
+  width: 18%;
+  margin-bottom: 0.5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+    border-bottom: 5px solid #2c3e50 ;
+}
+
+.fa-star{
+  font-size: 2em;
+}
+/*/ DIVISORIO STELLA E LINEE */
