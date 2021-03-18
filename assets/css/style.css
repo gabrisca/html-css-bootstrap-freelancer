@@ -126,6 +126,7 @@ header {
 #nav-bar.container-fluid {
   height: 100px;
   width: 100%;
+  /* imposto min-width per evitare che la scritta del logo si sposti sotto i 390px */
   min-width: 390px;
   line-height: 100px;
   background-color: #2c3e50;
