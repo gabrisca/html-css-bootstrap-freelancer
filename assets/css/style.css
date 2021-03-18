@@ -1,6 +1,6 @@
 /* GENERAL **************************/
 .debug [class*="col-"] {
-  background-color: rgba(238, 11, 11, .1);
+  background-color: rgba(238, 11, 11, 0.1);
   border: 1px solid black;
 }
 
@@ -15,9 +15,21 @@ a {
 /* /GENERAL *********************** */
 
 /* MY CLASSES **********************/
-.mc-title {
+.mc-title-nav {
   font-size: 1.3em;
   line-height: 66px;
+}
+
+.mc-link-nav {
+  margin-left: 20px;
+}
+
+.mc-link-nav a{
+  color: white;
+}
+
+.mc-link-nav:hover a{
+  color: coral;
 }
 
 .mc-width-60 {
@@ -36,7 +48,7 @@ a {
 }
 
 .mc-btn-green {
-  background-color: #2FBC9C;
+  background-color: #2fbc9c;
   color: white;
 }
 
@@ -48,7 +60,7 @@ a {
   margin-bottom: 100px;
 }
 
-.mc-marginbottom20{
+.mc-marginbottom20 {
   margin-bottom: 20px;
 }
 
@@ -60,12 +72,12 @@ a {
   padding-bottom: 20px;
 }
 
-.mc-padding0{
+.mc-padding0 {
   padding: 0;
   margin: 0;
 }
 
-.mc-padding80{
+.mc-padding80 {
   padding: 80px 0;
 }
 
@@ -91,31 +103,31 @@ a {
   color: white;
 }
 
-.mc-starblue{
+.mc-starblue {
   color: #2c3e50;
 }
 
-.mc-whiteline{
+.mc-whiteline {
   display: inline-block;
   width: 18%;
   margin-bottom: 0.5%;
-    margin-left: 3%;
-    margin-right: 3%;
-    border-radius: 10px;
-    border-bottom: 5px solid white;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 10px;
+  border-bottom: 5px solid white;
 }
 
-.mc-blueline{
+.mc-blueline {
   display: inline-block;
   width: 18%;
   margin-bottom: 0.5%;
-    margin-left: 3%;
-    margin-right: 3%;
-    border-radius: 10px;
-    border-bottom: 5px solid #2c3e50 ;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 10px;
+  border-bottom: 5px solid #2c3e50;
 }
 
-.fa-star{
+.fa-star {
   font-size: 2em;
 }
 /*/ DIVISORIO STELLA E LINEE ************/
@@ -130,7 +142,7 @@ header {
   width: 100%;
   min-width: 400px;
   line-height: 100px;
-  background-color: #2C3E50;
+  background-color: #2c3e50;
   position: fixed;
   z-index: 999;
 }
@@ -138,7 +150,7 @@ header {
 #jumbotron.container-fluid {
   padding-top: 100px;
   min-width: 400px;
-  background-color: #2FBC9C;
+  background-color: #2fbc9c;
 }
 /* /HEADER *********************/
 
@@ -157,7 +169,7 @@ header {
 
 #about.container-fluid {
   min-width: 400px;
-  background-color: #2FBC9C;
+  background-color: #2fbc9c;
   font-size: 1.2em;
   margin-bottom: 3%;
   color: white;
@@ -173,7 +185,7 @@ header {
 /* FOOTER ************************/
 #footer-top.container-fluid {
   min-width: 400px;
-  background-color: #3A546E;
+  background-color: #3a546e;
   color: white;
 }
 
@@ -186,7 +198,7 @@ header {
 }
 
 #footer-top a.mc-green {
-  color: #2FBC9C;
+  color: #2fbc9c;
 }
 
 #footer-top .fab {
@@ -204,7 +216,7 @@ header {
   width: 100%;
   height: 100px;
   line-height: 90px;
-  background-color: #2C3E50;
+  background-color: #2c3e50;
   color: white;
 }
 /* /FOOTER **************+*/
@@ -212,14 +224,34 @@ header {
 /* MEDIA QUERIES ******************/
 @media all and (max-width: 767px) {
   img {
-    /* width: 70%; */
+    width: 60%;
   }
 }
 
-
 @media all and (min-width: 768px) {
   img {
-    /* width: 50%; */
+    width: 50%;
+  }
+  #portfolio.container-fluid {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+
+@media all and (min-width: 992px) {
+  img {
+    width: 40%;
+  }
+  #portfolio.container-fluid {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  #portfolio.container-fluid {
+    margin-left: 7%;
+    margin-right: 7%;
   }
 }
 /* /MEDIA QUERIES ******************/
