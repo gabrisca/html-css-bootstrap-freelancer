@@ -64,7 +64,16 @@ a {
   margin-bottom: 15px;
 }
 
+.mc-menu {
+  top: 70%;
+  right: 0;
+}
 
+.mc-border {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid gray;
+}
 
 @media all and (max-width: 767px) {
   img {
