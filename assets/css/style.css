@@ -78,11 +78,11 @@ a {
   right: 0;
 }
 
-.mc-border {
-  border: none;
-  border-radius: 0;
-  border-bottom: 1px solid gray;
-}
+  .mc-border {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid gray;
+  }
 
 /* /MY CLASSES *******************/
 
@@ -171,7 +171,6 @@ header {
   background-color: white;
   margin-bottom: 3%;
 }
-
 /* /MAIN ****************/
 
 /* FOOTER ************************/
